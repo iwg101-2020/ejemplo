@@ -1,8 +1,8 @@
 import os
 
-CLIENT_ID = "Enter_the_Application_Id_here" # Application (client) ID of app registration
+CLIENT_ID = "5456c758-7305-4137-b797-b728cb3423cf" # Application (client) ID of app registration
 
-CLIENT_SECRET = "Enter_the_Client_Secret_Here" # Placeholder - for use ONLY during testing.
+CLIENT_SECRET = "1g09Mqsc6_o~i.Sq5EgtqFrcOT3yKqd0~e" # Placeholder - for use ONLY during testing.
 # In a production app, we recommend you use a more secure method of storing your secret,
 # like Azure Key Vault. Or, use an environment variable as described in Flask's documentation:
 # https://flask.palletsprojects.com/en/1.1.x/config/#configuring-from-environment-variables
@@ -10,7 +10,7 @@ CLIENT_SECRET = "Enter_the_Client_Secret_Here" # Placeholder - for use ONLY duri
 # if not CLIENT_SECRET:
 #     raise ValueError("Need to define CLIENT_SECRET environment variable")
 
-AUTHORITY = "https://login.microsoftonline.com/common"  # For multi-tenant app
+AUTHORITY = "https://login.microsoftonline.com/02625676-3227-440a-9c68-bb6d29de4206"  # For multi-tenant app
 # AUTHORITY = "https://login.microsoftonline.com/Enter_the_Tenant_Name_Here"
 
 REDIRECT_PATH = "/getAToken"  # Used for forming an absolute URL to your redirect URI.
